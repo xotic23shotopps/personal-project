@@ -246,3 +246,64 @@ footer a:hover {
   top: 10px;
   left: 10px;
 }
+.team {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.team h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.team-member a {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.team-member a:hover {
+  text-decoration: underline;
+}
